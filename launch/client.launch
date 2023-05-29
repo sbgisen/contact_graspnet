@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="contact_graspnet_ros" type="ros_client.py" name="graspnet_client" output="screen">
+    <remap from="~rgb" to="/soar/hand_camera/rgb/image_rect"/>
+    <remap from="~depth" to="/soar/hand_camera/depth_registered/image_rect"/>
+    <remap from="~segment" to="/uois/inference"/>
+    <remap from="~inference" to="/contact_graspnet/inference"/>
+  </node>
+</launch>

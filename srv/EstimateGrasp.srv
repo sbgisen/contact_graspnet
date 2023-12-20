@@ -1,0 +1,6 @@
+# Service for calling text-to-speech server
+sensor_msgs/PointCloud2 full_cloud
+sensor_msgs/PointCloud2[] object_clouds
+---
+geometry_msgs/PoseArray[] poses
+std_msgs/Float32MultiArray[] scores

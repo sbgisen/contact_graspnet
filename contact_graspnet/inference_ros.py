@@ -129,7 +129,7 @@ class GraspInference(object):
             poses.header = req.full_cloud.header
             for i in range(mat.shape[0]):
                 pose = Pose()
-                offset = np.ravel(mat[i] * np.matrix([0, 0, 0.1, 0]).T)
+                offset = np.ravel(mat[i] * np.matrix([0, 0, 0.15, 0]).T)
                 pose.position.x = mat.item(i, 0, 3) / scale + offset[0]
                 pose.position.y = mat.item(i, 1, 3) / scale + offset[1]
                 pose.position.z = mat.item(i, 2, 3) / scale + offset[2]

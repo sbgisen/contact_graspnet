@@ -1,4 +1,4 @@
-#!/usr/bin/env pipenv-shebang
+#!/usr/bin/env rye-shebang
 # -*- coding:utf-8 -*-
 
 # Copyright (c) 2023 SoftBank Corp.

@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "==2.5.0"
+termcolor = "==1.1.0"
+urllib3 = "==1.25.11"
+werkzeug = "==1.0.1"
+wrapt = "==1.12.1"
+zipp = "==3.4.0"
+pyside2 = ">=5.15.2.1"
+rospkg = ">=1.5.0"
+opencv-python = ">=4.9.0.80"
+Pillow = ">=10.2.0"
+trimesh = ">=4.1.7"
+pyrender = ">=0.1.45"
+tqdm = ">=4.66.2"
+mayavi = ">=4.8.1"
+pyyaml = "<6.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

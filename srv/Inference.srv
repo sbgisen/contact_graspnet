@@ -1,0 +1,7 @@
+# Service for calling text-to-speech server
+sensor_msgs/Image rgb
+sensor_msgs/Image depth
+sensor_msgs/Image segmap
+---
+geometry_msgs/PoseArray[] poses
+std_msgs/Float32MultiArray[] scores

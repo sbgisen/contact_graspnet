@@ -12,11 +12,13 @@ ICRA 2021
 
 ## Installation
 
-This code has been tested with python 3.7, tensorflow 2.2, CUDA 11.1
-
-Create the conda env
-```
-conda env create -f contact_graspnet_env.yml
+```bash
+cd <path/to/your/workspace>
+rosdep install -y --from-paths src --ignore-src -r --rosdistro $ROS_DISTRO
+catkin build contact_graspnet_ros
+cd src/contact_graspnet
+pipenv install
+sh compile_pointnet_tfops.sh
 ```
 
 ### Troubleshooting
